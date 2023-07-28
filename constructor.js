@@ -1,4 +1,5 @@
 // This file has polymorphism ;)
+// Polymorphism: The concept of writing code that has reusable parts
 
 class Something {
     constructor(a, b) {
