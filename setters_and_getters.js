@@ -6,7 +6,7 @@ const me = {
         // Reset my name back to 'aiden' ;)
         this.myName = 'aiden';
 
-        // Normally this would be `this.name = newName;` instead
+        // Normally this would be `this.myName = newName;` instead
     }, // Don't forget commas, since you're in an object
 
     get name() {
@@ -18,13 +18,13 @@ const me = {
 // How to use it:
 
 me.name = 'shan';
-// name.setter();
+// me.name.set
 
 me.name += ' blishen cuneo';
-// name.setter();
+// me.name.set
 
 shipTo(me.name, 'china');
-// name.getter();
+// me.name.get
 
 me.name;
-// name.getter();
+// me.name.get
